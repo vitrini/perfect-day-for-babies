@@ -1,0 +1,124 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white" >
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+       	<RelativeLayout	   
+			android:layout_width="match_parent"
+			android:layout_height="50dip"
+			android:orientation="horizontal" >
+			
+	   	    <Button 
+		        android:id="@+id/cancel_search_button"
+		        android:layout_width="wrap_content"
+		        android:layout_height="28dp"
+		        android:contentDescription="@string/app_name"
+		        android:layout_marginRight="5dp"
+		        android:layout_alignParentRight="true"
+		        android:layout_centerInParent="true"
+		        android:visibility="gone"
+		        android:text="Cancelar"
+		        android:textColor="@color/pink"
+		        android:alpha="0.8"
+		        android:textSize="16sp"
+		        android:background="@null" />
+	       	    
+	<!--
+			<Button
+			    android:id="@+id/button_segment"
+			    android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+			    android:src="@drawable/ic_action_search"
+		        android:background="@drawable/icone_filtro"
+		        android:layout_marginLeft="12dp"
+		        android:layout_marginRight="10dp" />
+	-->
+		    <RelativeLayout
+				android:id="@+id/search_area_layout"
+	            android:layout_width="match_parent"
+	            android:layout_height="28dp"
+	            android:background="@drawable/filter_text_area"
+	            android:orientation="vertical"
+	            android:layout_marginLeft="5dp" 
+	            android:layout_marginRight="5dp"
+	            android:layout_toLeftOf="@+id/cancel_search_button"
+	            android:layout_centerInParent="true" >
+	
+	  	        <ImageView
+		            android:id="@+id/icon_search"
+		            android:layout_width="20dp"
+		            android:layout_height="20dp"
+		            android:contentDescription="@string/app_name"
+		            android:background="@drawable/search_icon"
+		            android:layout_marginLeft="12dp"
+		            android:layout_marginRight="5dp"
+		            android:layout_alignParentLeft="true"
+		            android:layout_centerInParent="true" />
+	
+	  	            <AutoCompleteTextView
+				        android:id="@+id/photo_map_auto_complete_search_box"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+		             	android:text=""
+			        	android:hint="       Procurar estande"
+						android:textColor="#33000000"
+						android:background="@null"
+						android:singleLine="true"
+						android:layout_alignParentLeft="true"
+						android:layout_centerInParent="true"
+						android:layout_marginLeft="8dp"
+				        android:completionThreshold="1"
+				        android:layout_marginRight="28dp" />
+	  	        
+<!--  	   			<AutoCompleteTextView
+		             android:id="@+id/auto_complete_search_box"
+		             android:layout_width="200dp"
+		             android:layout_height="match_parent"
+		             android:text="       Procurar estande"
+		             android:textColor="#33000000"
+		             android:background="@null"
+		             android:singleLine="true"
+		             android:layout_alignParentLeft="true"
+		             android:layout_centerInParent="true"
+		             android:layout_marginLeft="8dp"
+		              />
+-->				
+		        <ImageButton
+		            android:id="@+id/close_search_button"
+		            android:layout_width="25dp"
+		            android:layout_height="25dp"
+		            android:contentDescription="@string/app_name"
+		            android:background="@drawable/icon_x"
+		            android:layout_marginRight="5dp"
+		            android:layout_alignParentRight="true"
+		            android:layout_centerInParent="true"
+		            android:visibility="invisible"
+		            android:alpha="0.7" />
+			</RelativeLayout>
+		</RelativeLayout>
+        	
+		<ImageView
+		    android:id="@+id/vitrini_list_initial_line"
+		    android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:src="@drawable/vitrinis_list_initial_line"
+	    	android:contentDescription="TODO"
+	    	/>
+	   
+       <FrameLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent" >
+
+           <WebView
+               android:id="@+id/web_view_map"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent" />
+       </FrameLayout>
+   </LinearLayout>
+</RelativeLayout>

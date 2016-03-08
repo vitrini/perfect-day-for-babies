@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+			android:layout_gravity="center_horizontal|center_vertical" >
+
+            <AutoCompleteTextView
+                android:id="@+id/auto_complete_booths"
+                android:layout_width="257dp"
+                android:layout_height="wrap_content" />
+
+            <ImageButton
+                android:id="@+id/img_btn_go_to_booth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_action_search" />
+
+        </LinearLayout>
+
+        
+<!-- Ícones
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.01" >
+
+            <ImageButton
+                android:id="@+id/img_btn_focus_bathrooms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:contentDescription="@string/img_btn_focus_bathrooms"
+                android:src="@drawable/ic_action_search" />
+
+            <ImageButton
+                android:id="@+id/img_btn_focus_restaurants"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:contentDescription="@string/img_btn_focus_restaurants"
+                android:src="@drawable/ic_action_search" />
+
+            <ImageButton
+                android:id="@+id/img_btn_focus_female_stores"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:contentDescription="@string/img_btn_focus_female_stores"
+                android:src="@drawable/ic_action_search" />
+
+            <ImageButton
+                android:id="@+id/img_btn_focus_exit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/img_btn_focus_exit"
+                android:src="@drawable/ic_action_search" />
+
+        </LinearLayout>
+ -->
+ 
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="355dp" >
+            
+            <ImageView
+                android:id="@+id/img_view_map"
+                android:layout_width="match_parent"
+                android:layout_height="340dp"
+                android:contentDescription="@string/img_view_map"
+                android:scaleType="centerCrop"
+                android:src="@drawable/mapa_highlight" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

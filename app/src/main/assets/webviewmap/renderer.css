@@ -1,0 +1,216 @@
+
+div#map
+{
+	/* widht and height are defined according the image*/
+	background: url(mapa_atual.jpg);
+	height: 1044px;
+	width: 1692px;
+	background-repeat: no-repeat;
+
+}
+
+/* esses caras são utilizados para alinhar */
+.location {
+  text-align: center;
+  color: #4D4D4D;
+  font-size: 13pt;
+}
+
+.location:before {
+  content: '';
+  display: inline-block;
+  height: 100%; 
+  vertical-align: middle;
+  margin-right: -0.25em; /* Adjusts for spacing */
+}
+
+.location > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+.location {
+	position: absolute;
+	cursor: pointer;
+	width: 35px;
+	height: 35px;
+	border-style:solid;
+	border-width:0px;
+}
+
+
+.small_location 
+{
+	font-size: 10pt;
+	width: 45px;
+}
+
+.plus_space
+{
+	width: 170px;
+}
+
+body
+{
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+#location_C1{top:505px;left:440px;}
+#location_C2{top:485px;left:480px;}
+#location_C3{top:465px;left:520px;}
+
+#location_G1{top:615px;left:485px;}
+#location_G2{top:640px;left:530px;}
+#location_G3{top:665px;left:572px;}
+#location_G4{top:690px;left:615px;}
+
+#location_A1{top:545px;left:510px;}
+#location_A2{top:565px;left:545px;}
+#location_A3{top:585px;left:580px;}
+#location_A4{top:605px;left:615px;}
+#location_A5{top:625px;left:655px;}
+#location_A6{top:645px;left:695px;}
+
+#location_A7{top:520px;left:555px;}
+#location_A8{top:540px;left:590px;}
+#location_A9{top:560px;left:625px;}
+#location_A10{top:580px;left:657px;}
+#location_A11{top:602px;left:695px;}
+#location_A12{top:622px;left:732px;}
+
+#location_A13{top:467px;left:625px;}
+#location_A14{top:485px;left:657px;}
+#location_A15{top:450px;left:657px;}
+#location_A16{top:467px;left:685px;}
+
+#location_E1{top:680px;left:790px;}
+
+#location_A18{top:375px;left:780px;}
+#location_A19{top:462px;left:820px;}
+#location_D1{top:468px;left:895px;}
+
+
+#location_D2{top:642px;left:982px;}
+#location_D3{top:667px;left:1027px;}
+
+#location_A20{top:522px;left:800px;}
+#location_A21{top:542px;left:835px;}
+#location_A22{top:562px;left:867px;}
+#location_A23{top:580px;left:900px;}
+#location_A24{top:598px;left:932px;}
+ 
+
+#location_B1{top:520px;left:720px;}
+#location_A17{top:537px;left:752px;}
+#location_B2{top:555px;left:785px;}
+#location_B3{top:575px;left:815px;}
+
+
+#location_B4{top:428px;left:955px;}
+#location_B5{top:455px;left:1000px;}
+#location_B6{top:480px;left:1040px;}
+#location_B7{top:505px;left:1080px;}
+
+
+#location_F1{top:505px;left:1170px;}
+#location_F2{top:520px;left:1200px;}
+#location_F3{top:537px;left:1229px;}
+
+#location_A25{top:655px;left:1145px;}
+#location_A26{top:635px;left:1180px;}
+#location_A27{top:615px;left:1215px;}
+
+#location_H1{top:340px;left:620px;}
+#location_H2{top:320px;left:660px;}
+
+.vitriniContainer
+{
+	top: 1310px;
+	left: 370px;
+	position:absolute;
+	width: 409px;
+	height: 437px;
+	margin-left: -185px;
+	margin-top: -427px;
+	display: none;
+}
+
+.vitriniBox
+{
+	background: url(tip_bg_ballon.png);
+	height: 313px;
+	width: 409px;
+	z-index:99999;
+	cursor: pointer;
+	
+}
+
+.vitriniBase
+{
+	background: url(tip_bg_base.png);
+	height: 124px;
+	width: 409px;
+	z-index:99999;
+}
+
+
+
+.vitrini_label {
+	position: relative;
+	padding-left: 50px;
+	width: 100px;
+	color: deeppink;
+	font-size: larger;
+	font-variant: small-caps;
+	font-weight: 900;
+}
+
+.vitriniSegmentIcon
+{
+	height: 160px;
+	width: 160px;
+	background-repeat: no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	padding-top: 20px;
+	
+}
+
+
+
+	/*acessorios
+	artes_plasticas
+	artesanato_contemporaneo
+	complementos_para_casa
+	design_de_superficies
+	importados
+	infantil
+	joalheria_autoral
+	mobiliario
+	objetos
+	papelaria
+	popart
+	sustentabilidade
+	textil*/
+
+
+.vitriniName
+{
+	text-align: center;
+	font-weight: bolder;
+	font-size: x-large;
+	margin-bottom: 10px;
+}
+
+.vitriniSegmentLbl
+{
+	text-align: center;
+	color: #043C51;
+	font-size: large;
+}
+	
+	

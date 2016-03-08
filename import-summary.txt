@@ -1,0 +1,495 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .gitignore
+* .idea/
+* .idea/.name
+* .idea/Android.iml
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* ic_vitrini-web.png
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* lint.xml => app/lint.xml
+* res/ => app/src/main/java/
+* res/color/tab_indicator_text.xml => app/src/main/resources/color/tab_indicator_text.xml
+* res/color/vpi__dark_theme.xml => app/src/main/resources/color/vpi__dark_theme.xml
+* res/color/vpi__light_theme.xml => app/src/main/resources/color/vpi__light_theme.xml
+* res/drawable-hdpi/about_btn_close.png => app/src/main/resources/drawable-hdpi/about_btn_close.png
+* res/drawable-hdpi/about_expositores.png => app/src/main/resources/drawable-hdpi/about_expositores.png
+* res/drawable-hdpi/about_organizadores.png => app/src/main/resources/drawable-hdpi/about_organizadores.png
+* res/drawable-hdpi/about_visitantes.png => app/src/main/resources/drawable-hdpi/about_visitantes.png
+* res/drawable-hdpi/about_vitrini_logo.png => app/src/main/resources/drawable-hdpi/about_vitrini_logo.png
+* res/drawable-hdpi/background_focus.png => app/src/main/resources/drawable-hdpi/background_focus.png
+* res/drawable-hdpi/black_edit_text.xml => app/src/main/resources/drawable-hdpi/black_edit_text.xml
+* res/drawable-hdpi/button_about.png => app/src/main/resources/drawable-hdpi/button_about.png
+* res/drawable-hdpi/button_icon_pressed.xml => app/src/main/resources/drawable-hdpi/button_icon_pressed.xml
+* res/drawable-hdpi/button_icon_shape.xml => app/src/main/resources/drawable-hdpi/button_icon_shape.xml
+* res/drawable-hdpi/button_selector.xml => app/src/main/resources/drawable-hdpi/button_selector.xml
+* res/drawable-hdpi/category_grid_cell_clicked_shape.xml => app/src/main/resources/drawable-hdpi/category_grid_cell_clicked_shape.xml
+* res/drawable-hdpi/category_grid_selector.xml => app/src/main/resources/drawable-hdpi/category_grid_selector.xml
+* res/drawable-hdpi/category_icon_default_shape.xml => app/src/main/resources/drawable-hdpi/category_icon_default_shape.xml
+* res/drawable-hdpi/category_icon_selector.xml => app/src/main/resources/drawable-hdpi/category_icon_selector.xml
+* res/drawable-hdpi/category_icon_seletected_shape.xml => app/src/main/resources/drawable-hdpi/category_icon_seletected_shape.xml
+* res/drawable-hdpi/category_text_background.xml => app/src/main/resources/drawable-hdpi/category_text_background.xml
+* res/drawable-hdpi/category_text_selector.xml => app/src/main/resources/drawable-hdpi/category_text_selector.xml
+* res/drawable-hdpi/check_disable.png => app/src/main/resources/drawable-hdpi/check_disable.png
+* res/drawable-hdpi/check_enable.png => app/src/main/resources/drawable-hdpi/check_enable.png
+* res/drawable-hdpi/custom_btn.xml => app/src/main/resources/drawable-hdpi/custom_btn.xml
+* res/drawable-hdpi/event_details_area_close.png => app/src/main/resources/drawable-hdpi/event_details_area_close.png
+* res/drawable-hdpi/event_details_area_open.png => app/src/main/resources/drawable-hdpi/event_details_area_open.png
+* res/drawable-hdpi/event_icon.png => app/src/main/resources/drawable-hdpi/event_icon.png
+* res/drawable-hdpi/event_icon_selected.png => app/src/main/resources/drawable-hdpi/event_icon_selected.png
+* res/drawable-hdpi/event_tab_info.xml => app/src/main/resources/drawable-hdpi/event_tab_info.xml
+* res/drawable-hdpi/favorite_deselected.png => app/src/main/resources/drawable-hdpi/favorite_deselected.png
+* res/drawable-hdpi/favorite_selected.png => app/src/main/resources/drawable-hdpi/favorite_selected.png
+* res/drawable-hdpi/favorite_selector.xml => app/src/main/resources/drawable-hdpi/favorite_selector.xml
+* res/drawable-hdpi/favorites_tab_info.xml => app/src/main/resources/drawable-hdpi/favorites_tab_info.xml
+* res/drawable-hdpi/filter_text_area.png => app/src/main/resources/drawable-hdpi/filter_text_area.png
+* res/drawable-hdpi/filter_text_area_selected.png => app/src/main/resources/drawable-hdpi/filter_text_area_selected.png
+* res/drawable-hdpi/go_to_map_icon.png => app/src/main/resources/drawable-hdpi/go_to_map_icon.png
+* res/drawable-hdpi/ic_action_search.png => app/src/main/resources/drawable-hdpi/ic_action_search.png
+* res/drawable-hdpi/ic_launcher.png => app/src/main/resources/drawable-hdpi/ic_launcher.png
+* res/drawable-hdpi/ic_vitrini.png => app/src/main/resources/drawable-hdpi/ic_vitrini.png
+* res/drawable-hdpi/icon_120_120.png => app/src/main/resources/drawable-hdpi/icon_120_120.png
+* res/drawable-hdpi/icon_58_58.png => app/src/main/resources/drawable-hdpi/icon_58_58.png
+* res/drawable-hdpi/icon_80_80.png => app/src/main/resources/drawable-hdpi/icon_80_80.png
+* res/drawable-hdpi/icon_default_shape.xml => app/src/main/resources/drawable-hdpi/icon_default_shape.xml
+* res/drawable-hdpi/icon_x.png => app/src/main/resources/drawable-hdpi/icon_x.png
+* res/drawable-hdpi/icone_filtro.png => app/src/main/resources/drawable-hdpi/icone_filtro.png
+* res/drawable-hdpi/icone_pin.png => app/src/main/resources/drawable-hdpi/icone_pin.png
+* res/drawable-hdpi/item_border.xml => app/src/main/resources/drawable-hdpi/item_border.xml
+* res/drawable-hdpi/line_separator.xml => app/src/main/resources/drawable-hdpi/line_separator.xml
+* res/drawable-hdpi/lingueta_aonde_ir_icon.png => app/src/main/resources/drawable-hdpi/lingueta_aonde_ir_icon.png
+* res/drawable-hdpi/lingueta_aonde_ir_icon_selected.png => app/src/main/resources/drawable-hdpi/lingueta_aonde_ir_icon_selected.png
+* res/drawable-hdpi/lingueta_comodidades_icon.png => app/src/main/resources/drawable-hdpi/lingueta_comodidades_icon.png
+* res/drawable-hdpi/lingueta_comodidades_icon_selected.png => app/src/main/resources/drawable-hdpi/lingueta_comodidades_icon_selected.png
+* res/drawable-hdpi/lingueta_craft_icon.png => app/src/main/resources/drawable-hdpi/lingueta_craft_icon.png
+* res/drawable-hdpi/lingueta_craft_icon_selected.png => app/src/main/resources/drawable-hdpi/lingueta_craft_icon_selected.png
+* res/drawable-hdpi/lingueta_hoteis_icon.png => app/src/main/resources/drawable-hdpi/lingueta_hoteis_icon.png
+* res/drawable-hdpi/lingueta_hoteis_icon_selected.png => app/src/main/resources/drawable-hdpi/lingueta_hoteis_icon_selected.png
+* res/drawable-hdpi/lingueta_regras_icon.png => app/src/main/resources/drawable-hdpi/lingueta_regras_icon.png
+* res/drawable-hdpi/lingueta_regras_icon_selected.png => app/src/main/resources/drawable-hdpi/lingueta_regras_icon_selected.png
+* res/drawable-hdpi/lingueta_restaurantes_icon.png => app/src/main/resources/drawable-hdpi/lingueta_restaurantes_icon.png
+* res/drawable-hdpi/lingueta_restaurantes_icon_selected.png => app/src/main/resources/drawable-hdpi/lingueta_restaurantes_icon_selected.png
+* res/drawable-hdpi/linha_pontilhada.png => app/src/main/resources/drawable-hdpi/linha_pontilhada.png
+* res/drawable-hdpi/list_item_selector.xml => app/src/main/resources/drawable-hdpi/list_item_selector.xml
+* res/drawable-hdpi/list_press.xml => app/src/main/resources/drawable-hdpi/list_press.xml
+* res/drawable-hdpi/location_icon.png => app/src/main/resources/drawable-hdpi/location_icon.png
+* res/drawable-hdpi/map_tab_info.xml => app/src/main/resources/drawable-hdpi/map_tab_info.xml
+* res/drawable-hdpi/mapa_highlight.png => app/src/main/resources/drawable-hdpi/mapa_highlight.png
+* res/drawable-hdpi/search_icon.png => app/src/main/resources/drawable-hdpi/search_icon.png
+* res/drawable-hdpi/tab_event_icon.png => app/src/main/resources/drawable-hdpi/tab_event_icon.png
+* res/drawable-hdpi/tab_event_icon_selected.png => app/src/main/resources/drawable-hdpi/tab_event_icon_selected.png
+* res/drawable-hdpi/tab_favorites_icon.png => app/src/main/resources/drawable-hdpi/tab_favorites_icon.png
+* res/drawable-hdpi/tab_favorites_icon_selected.png => app/src/main/resources/drawable-hdpi/tab_favorites_icon_selected.png
+* res/drawable-hdpi/tab_focus.xml => app/src/main/resources/drawable-hdpi/tab_focus.xml
+* res/drawable-hdpi/tab_indicator.xml => app/src/main/resources/drawable-hdpi/tab_indicator.xml
+* res/drawable-hdpi/tab_map_icon.png => app/src/main/resources/drawable-hdpi/tab_map_icon.png
+* res/drawable-hdpi/tab_map_icon_selected.png => app/src/main/resources/drawable-hdpi/tab_map_icon_selected.png
+* res/drawable-hdpi/tab_press.xml => app/src/main/resources/drawable-hdpi/tab_press.xml
+* res/drawable-hdpi/tab_selected.xml => app/src/main/resources/drawable-hdpi/tab_selected.xml
+* res/drawable-hdpi/tab_separator_shape.xml => app/src/main/resources/drawable-hdpi/tab_separator_shape.xml
+* res/drawable-hdpi/tab_unselected.xml => app/src/main/resources/drawable-hdpi/tab_unselected.xml
+* res/drawable-hdpi/tab_vitrinis_icon.png => app/src/main/resources/drawable-hdpi/tab_vitrinis_icon.png
+* res/drawable-hdpi/tab_vitrinis_icon_selected.png => app/src/main/resources/drawable-hdpi/tab_vitrinis_icon_selected.png
+* res/drawable-hdpi/textfield_default_grey.9.png => app/src/main/resources/drawable-hdpi/textfield_default_grey.9.png
+* res/drawable-hdpi/textfield_disabled_grey.9.png => app/src/main/resources/drawable-hdpi/textfield_disabled_grey.9.png
+* res/drawable-hdpi/textfield_disabled_selected_grey.9.png => app/src/main/resources/drawable-hdpi/textfield_disabled_selected_grey.9.png
+* res/drawable-hdpi/textfield_pressed_grey.9.png => app/src/main/resources/drawable-hdpi/textfield_pressed_grey.9.png
+* res/drawable-hdpi/textfield_selected_grey.9.png => app/src/main/resources/drawable-hdpi/textfield_selected_grey.9.png
+* res/drawable-hdpi/title_background.xml => app/src/main/resources/drawable-hdpi/title_background.xml
+* res/drawable-hdpi/vitrinis_list_initial_line.png => app/src/main/resources/drawable-hdpi/vitrinis_list_initial_line.png
+* res/drawable-hdpi/vitrinis_list_line_separator.png => app/src/main/resources/drawable-hdpi/vitrinis_list_line_separator.png
+* res/drawable-hdpi/vitrinis_tab_info.xml => app/src/main/resources/drawable-hdpi/vitrinis_tab_info.xml
+* res/drawable-ldpi/about_btn_close.png => app/src/main/resources/drawable-ldpi/about_btn_close.png
+* res/drawable-ldpi/about_expositores.png => app/src/main/resources/drawable-ldpi/about_expositores.png
+* res/drawable-ldpi/about_organizadores.png => app/src/main/resources/drawable-ldpi/about_organizadores.png
+* res/drawable-ldpi/about_visitantes.png => app/src/main/resources/drawable-ldpi/about_visitantes.png
+* res/drawable-ldpi/about_vitrini_logo.png => app/src/main/resources/drawable-ldpi/about_vitrini_logo.png
+* res/drawable-ldpi/button_about.png => app/src/main/resources/drawable-ldpi/button_about.png
+* res/drawable-ldpi/event_details_area_close.png => app/src/main/resources/drawable-ldpi/event_details_area_close.png
+* res/drawable-ldpi/event_details_area_open.png => app/src/main/resources/drawable-ldpi/event_details_area_open.png
+* res/drawable-ldpi/favorite_deselected.png => app/src/main/resources/drawable-ldpi/favorite_deselected.png
+* res/drawable-ldpi/favorite_selected.png => app/src/main/resources/drawable-ldpi/favorite_selected.png
+* res/drawable-ldpi/filter_text_area.png => app/src/main/resources/drawable-ldpi/filter_text_area.png
+* res/drawable-ldpi/filter_text_area_selected.png => app/src/main/resources/drawable-ldpi/filter_text_area_selected.png
+* res/drawable-ldpi/ic_launcher.png => app/src/main/resources/drawable-ldpi/ic_launcher.png
+* res/drawable-ldpi/icon_x.png => app/src/main/resources/drawable-ldpi/icon_x.png
+* res/drawable-ldpi/icone_pin.png => app/src/main/resources/drawable-ldpi/icone_pin.png
+* res/drawable-ldpi/lingueta_aonde_ir_icon.png => app/src/main/resources/drawable-ldpi/lingueta_aonde_ir_icon.png
+* res/drawable-ldpi/lingueta_aonde_ir_icon_selected.png => app/src/main/resources/drawable-ldpi/lingueta_aonde_ir_icon_selected.png
+* res/drawable-ldpi/lingueta_comodidades_icon.png => app/src/main/resources/drawable-ldpi/lingueta_comodidades_icon.png
+* res/drawable-ldpi/lingueta_comodidades_icon_selected.png => app/src/main/resources/drawable-ldpi/lingueta_comodidades_icon_selected.png
+* res/drawable-ldpi/lingueta_craft_icon.png => app/src/main/resources/drawable-ldpi/lingueta_craft_icon.png
+* res/drawable-ldpi/lingueta_craft_icon_selected.png => app/src/main/resources/drawable-ldpi/lingueta_craft_icon_selected.png
+* res/drawable-ldpi/lingueta_hoteis_icon.png => app/src/main/resources/drawable-ldpi/lingueta_hoteis_icon.png
+* res/drawable-ldpi/lingueta_hoteis_icon_selected.png => app/src/main/resources/drawable-ldpi/lingueta_hoteis_icon_selected.png
+* res/drawable-ldpi/lingueta_regras_icon.png => app/src/main/resources/drawable-ldpi/lingueta_regras_icon.png
+* res/drawable-ldpi/lingueta_regras_icon_selected.png => app/src/main/resources/drawable-ldpi/lingueta_regras_icon_selected.png
+* res/drawable-ldpi/lingueta_restaurantes_icon.png => app/src/main/resources/drawable-ldpi/lingueta_restaurantes_icon.png
+* res/drawable-ldpi/lingueta_restaurantes_icon_selected.png => app/src/main/resources/drawable-ldpi/lingueta_restaurantes_icon_selected.png
+* res/drawable-ldpi/linha_pontilhada.png => app/src/main/resources/drawable-ldpi/linha_pontilhada.png
+* res/drawable-ldpi/search_icon.png => app/src/main/resources/drawable-ldpi/search_icon.png
+* res/drawable-ldpi/tab_event_icon.png => app/src/main/resources/drawable-ldpi/tab_event_icon.png
+* res/drawable-ldpi/tab_event_icon_selected.png => app/src/main/resources/drawable-ldpi/tab_event_icon_selected.png
+* res/drawable-ldpi/tab_favorites_icon.png => app/src/main/resources/drawable-ldpi/tab_favorites_icon.png
+* res/drawable-ldpi/tab_favorites_icon_selected.png => app/src/main/resources/drawable-ldpi/tab_favorites_icon_selected.png
+* res/drawable-ldpi/tab_map_icon.png => app/src/main/resources/drawable-ldpi/tab_map_icon.png
+* res/drawable-ldpi/tab_map_icon_selected.png => app/src/main/resources/drawable-ldpi/tab_map_icon_selected.png
+* res/drawable-ldpi/tab_vitrinis_icon.png => app/src/main/resources/drawable-ldpi/tab_vitrinis_icon.png
+* res/drawable-ldpi/tab_vitrinis_icon_selected.png => app/src/main/resources/drawable-ldpi/tab_vitrinis_icon_selected.png
+* res/drawable-ldpi/vitrinis_list_initial_line.png => app/src/main/resources/drawable-ldpi/vitrinis_list_initial_line.png
+* res/drawable-mdpi/about_btn_close.png => app/src/main/resources/drawable-mdpi/about_btn_close.png
+* res/drawable-mdpi/about_expositores.png => app/src/main/resources/drawable-mdpi/about_expositores.png
+* res/drawable-mdpi/about_organizadores.png => app/src/main/resources/drawable-mdpi/about_organizadores.png
+* res/drawable-mdpi/about_visitantes.png => app/src/main/resources/drawable-mdpi/about_visitantes.png
+* res/drawable-mdpi/about_vitrini_logo.png => app/src/main/resources/drawable-mdpi/about_vitrini_logo.png
+* res/drawable-mdpi/button_about.png => app/src/main/resources/drawable-mdpi/button_about.png
+* res/drawable-mdpi/event_details_area_close.png => app/src/main/resources/drawable-mdpi/event_details_area_close.png
+* res/drawable-mdpi/event_details_area_open.png => app/src/main/resources/drawable-mdpi/event_details_area_open.png
+* res/drawable-mdpi/favorite_deselected.png => app/src/main/resources/drawable-mdpi/favorite_deselected.png
+* res/drawable-mdpi/favorite_selected.png => app/src/main/resources/drawable-mdpi/favorite_selected.png
+* res/drawable-mdpi/filter_text_area.png => app/src/main/resources/drawable-mdpi/filter_text_area.png
+* res/drawable-mdpi/filter_text_area_selected.png => app/src/main/resources/drawable-mdpi/filter_text_area_selected.png
+* res/drawable-mdpi/ic_action_search.png => app/src/main/resources/drawable-mdpi/ic_action_search.png
+* res/drawable-mdpi/ic_launcher.png => app/src/main/resources/drawable-mdpi/ic_launcher.png
+* res/drawable-mdpi/ic_vitrini.png => app/src/main/resources/drawable-mdpi/ic_vitrini.png
+* res/drawable-mdpi/icon_x.png => app/src/main/resources/drawable-mdpi/icon_x.png
+* res/drawable-mdpi/icone_pin.png => app/src/main/resources/drawable-mdpi/icone_pin.png
+* res/drawable-mdpi/lingueta_aonde_ir_icon.png => app/src/main/resources/drawable-mdpi/lingueta_aonde_ir_icon.png
+* res/drawable-mdpi/lingueta_aonde_ir_icon_selected.png => app/src/main/resources/drawable-mdpi/lingueta_aonde_ir_icon_selected.png
+* res/drawable-mdpi/lingueta_comodidades_icon.png => app/src/main/resources/drawable-mdpi/lingueta_comodidades_icon.png
+* res/drawable-mdpi/lingueta_comodidades_icon_selected.png => app/src/main/resources/drawable-mdpi/lingueta_comodidades_icon_selected.png
+* res/drawable-mdpi/lingueta_craft_icon.png => app/src/main/resources/drawable-mdpi/lingueta_craft_icon.png
+* res/drawable-mdpi/lingueta_craft_icon_selected.png => app/src/main/resources/drawable-mdpi/lingueta_craft_icon_selected.png
+* res/drawable-mdpi/lingueta_hoteis_icon.png => app/src/main/resources/drawable-mdpi/lingueta_hoteis_icon.png
+* res/drawable-mdpi/lingueta_hoteis_icon_selected.png => app/src/main/resources/drawable-mdpi/lingueta_hoteis_icon_selected.png
+* res/drawable-mdpi/lingueta_regras_icon.png => app/src/main/resources/drawable-mdpi/lingueta_regras_icon.png
+* res/drawable-mdpi/lingueta_regras_icon_selected.png => app/src/main/resources/drawable-mdpi/lingueta_regras_icon_selected.png
+* res/drawable-mdpi/lingueta_restaurantes_icon.png => app/src/main/resources/drawable-mdpi/lingueta_restaurantes_icon.png
+* res/drawable-mdpi/lingueta_restaurantes_icon_selected.png => app/src/main/resources/drawable-mdpi/lingueta_restaurantes_icon_selected.png
+* res/drawable-mdpi/linha_pontilhada.png => app/src/main/resources/drawable-mdpi/linha_pontilhada.png
+* res/drawable-mdpi/search_icon.png => app/src/main/resources/drawable-mdpi/search_icon.png
+* res/drawable-mdpi/tab_event_icon.png => app/src/main/resources/drawable-mdpi/tab_event_icon.png
+* res/drawable-mdpi/tab_event_icon_selected.png => app/src/main/resources/drawable-mdpi/tab_event_icon_selected.png
+* res/drawable-mdpi/tab_favorites_icon.png => app/src/main/resources/drawable-mdpi/tab_favorites_icon.png
+* res/drawable-mdpi/tab_favorites_icon_selected.png => app/src/main/resources/drawable-mdpi/tab_favorites_icon_selected.png
+* res/drawable-mdpi/tab_map_icon.png => app/src/main/resources/drawable-mdpi/tab_map_icon.png
+* res/drawable-mdpi/tab_map_icon_selected.png => app/src/main/resources/drawable-mdpi/tab_map_icon_selected.png
+* res/drawable-mdpi/tab_vitrinis_icon.png => app/src/main/resources/drawable-mdpi/tab_vitrinis_icon.png
+* res/drawable-mdpi/tab_vitrinis_icon_selected.png => app/src/main/resources/drawable-mdpi/tab_vitrinis_icon_selected.png
+* res/drawable-xhdpi/about_btn_close.png => app/src/main/resources/drawable-xhdpi/about_btn_close.png
+* res/drawable-xhdpi/about_expositores.png => app/src/main/resources/drawable-xhdpi/about_expositores.png
+* res/drawable-xhdpi/about_organizadores.png => app/src/main/resources/drawable-xhdpi/about_organizadores.png
+* res/drawable-xhdpi/about_visitantes.png => app/src/main/resources/drawable-xhdpi/about_visitantes.png
+* res/drawable-xhdpi/about_vitrini_logo.png => app/src/main/resources/drawable-xhdpi/about_vitrini_logo.png
+* res/drawable-xhdpi/button_about.png => app/src/main/resources/drawable-xhdpi/button_about.png
+* res/drawable-xhdpi/event_details_area_close.png => app/src/main/resources/drawable-xhdpi/event_details_area_close.png
+* res/drawable-xhdpi/event_details_area_open.png => app/src/main/resources/drawable-xhdpi/event_details_area_open.png
+* res/drawable-xhdpi/favorite_deselected.png => app/src/main/resources/drawable-xhdpi/favorite_deselected.png
+* res/drawable-xhdpi/favorite_selected.png => app/src/main/resources/drawable-xhdpi/favorite_selected.png
+* res/drawable-xhdpi/filter_text_area.png => app/src/main/resources/drawable-xhdpi/filter_text_area.png
+* res/drawable-xhdpi/filter_text_area_selected.png => app/src/main/resources/drawable-xhdpi/filter_text_area_selected.png
+* res/drawable-xhdpi/icon_x.png => app/src/main/resources/drawable-xhdpi/icon_x.png
+* res/drawable-xhdpi/icone_pin.png => app/src/main/resources/drawable-xhdpi/icone_pin.png
+* res/drawable-xhdpi/lingueta_aonde_ir_icon.png => app/src/main/resources/drawable-xhdpi/lingueta_aonde_ir_icon.png
+* res/drawable-xhdpi/lingueta_aonde_ir_icon_selected.png => app/src/main/resources/drawable-xhdpi/lingueta_aonde_ir_icon_selected.png
+* res/drawable-xhdpi/lingueta_comodidades_icon.png => app/src/main/resources/drawable-xhdpi/lingueta_comodidades_icon.png
+* res/drawable-xhdpi/lingueta_comodidades_icon_selected.png => app/src/main/resources/drawable-xhdpi/lingueta_comodidades_icon_selected.png
+* res/drawable-xhdpi/lingueta_craft_icon.png => app/src/main/resources/drawable-xhdpi/lingueta_craft_icon.png
+* res/drawable-xhdpi/lingueta_craft_icon_selected.png => app/src/main/resources/drawable-xhdpi/lingueta_craft_icon_selected.png
+* res/drawable-xhdpi/lingueta_hoteis_icon.png => app/src/main/resources/drawable-xhdpi/lingueta_hoteis_icon.png
+* res/drawable-xhdpi/lingueta_hoteis_icon_selected.png => app/src/main/resources/drawable-xhdpi/lingueta_hoteis_icon_selected.png
+* res/drawable-xhdpi/lingueta_regras_icon.png => app/src/main/resources/drawable-xhdpi/lingueta_regras_icon.png
+* res/drawable-xhdpi/lingueta_regras_icon_selected.png => app/src/main/resources/drawable-xhdpi/lingueta_regras_icon_selected.png
+* res/drawable-xhdpi/lingueta_restaurantes_icon.png => app/src/main/resources/drawable-xhdpi/lingueta_restaurantes_icon.png
+* res/drawable-xhdpi/lingueta_restaurantes_icon_selected.png => app/src/main/resources/drawable-xhdpi/lingueta_restaurantes_icon_selected.png
+* res/drawable-xhdpi/linha_pontilhada.png => app/src/main/resources/drawable-xhdpi/linha_pontilhada.png
+* res/drawable-xhdpi/search_icon.png => app/src/main/resources/drawable-xhdpi/search_icon.png
+* res/drawable-xhdpi/tab_event_icon.png => app/src/main/resources/drawable-xhdpi/tab_event_icon.png
+* res/drawable-xhdpi/tab_event_icon_selected.png => app/src/main/resources/drawable-xhdpi/tab_event_icon_selected.png
+* res/drawable-xhdpi/tab_favorites_icon.png => app/src/main/resources/drawable-xhdpi/tab_favorites_icon.png
+* res/drawable-xhdpi/tab_favorites_icon_selected.png => app/src/main/resources/drawable-xhdpi/tab_favorites_icon_selected.png
+* res/drawable-xhdpi/tab_map_icon.png => app/src/main/resources/drawable-xhdpi/tab_map_icon.png
+* res/drawable-xhdpi/tab_map_icon_selected.png => app/src/main/resources/drawable-xhdpi/tab_map_icon_selected.png
+* res/drawable-xhdpi/tab_vitrinis_icon.png => app/src/main/resources/drawable-xhdpi/tab_vitrinis_icon.png
+* res/drawable-xhdpi/tab_vitrinis_icon_selected.png => app/src/main/resources/drawable-xhdpi/tab_vitrinis_icon_selected.png
+* res/drawable-xhdpi/vitrinis_list_initial_line.png => app/src/main/resources/drawable-xhdpi/vitrinis_list_initial_line.png
+* res/drawable-xxhdpi/event_details_area_close.png => app/src/main/resources/drawable-xxhdpi/event_details_area_close.png
+* res/drawable-xxhdpi/event_details_area_open.png => app/src/main/resources/drawable-xxhdpi/event_details_area_open.png
+* res/drawable-xxhdpi/ic_vitrini.png => app/src/main/resources/drawable-xxhdpi/ic_vitrini.png
+* res/drawable-xxhdpi/tab_vitrinis_icon_selected.png => app/src/main/resources/drawable-xxhdpi/tab_vitrinis_icon_selected.png
+* res/drawable/about_btn_close.png => app/src/main/resources/drawable/about_btn_close.png
+* res/drawable/about_close_btn.png => app/src/main/resources/drawable/about_close_btn.png
+* res/drawable/about_expositores.png => app/src/main/resources/drawable/about_expositores.png
+* res/drawable/about_organizadores.png => app/src/main/resources/drawable/about_organizadores.png
+* res/drawable/about_visitantes.png => app/src/main/resources/drawable/about_visitantes.png
+* res/drawable/about_vitrini_logo.png => app/src/main/resources/drawable/about_vitrini_logo.png
+* res/drawable/background_focus.png => app/src/main/resources/drawable/background_focus.png
+* res/drawable/black_edit_text.xml => app/src/main/resources/drawable/black_edit_text.xml
+* res/drawable/button_about.png => app/src/main/resources/drawable/button_about.png
+* res/drawable/button_icon_pressed.xml => app/src/main/resources/drawable/button_icon_pressed.xml
+* res/drawable/button_icon_shape.xml => app/src/main/resources/drawable/button_icon_shape.xml
+* res/drawable/button_selector.xml => app/src/main/resources/drawable/button_selector.xml
+* res/drawable/category_grid_cell_clicked_shape.xml => app/src/main/resources/drawable/category_grid_cell_clicked_shape.xml
+* res/drawable/category_grid_selector.xml => app/src/main/resources/drawable/category_grid_selector.xml
+* res/drawable/category_icon_default_shape.xml => app/src/main/resources/drawable/category_icon_default_shape.xml
+* res/drawable/category_icon_selector.xml => app/src/main/resources/drawable/category_icon_selector.xml
+* res/drawable/category_icon_seletected_shape.xml => app/src/main/resources/drawable/category_icon_seletected_shape.xml
+* res/drawable/category_text_background.xml => app/src/main/resources/drawable/category_text_background.xml
+* res/drawable/category_text_selector.xml => app/src/main/resources/drawable/category_text_selector.xml
+* res/drawable/check_disable.png => app/src/main/resources/drawable/check_disable.png
+* res/drawable/check_enable.png => app/src/main/resources/drawable/check_enable.png
+* res/drawable/checkbox_selector.xml => app/src/main/resources/drawable/checkbox_selector.xml
+* res/drawable/custom_btn.xml => app/src/main/resources/drawable/custom_btn.xml
+* res/drawable/event_details_area_close.png => app/src/main/resources/drawable/event_details_area_close.png
+* res/drawable/event_details_area_open.png => app/src/main/resources/drawable/event_details_area_open.png
+* res/drawable/event_details_area_open_large.png => app/src/main/resources/drawable/event_details_area_open_large.png
+* res/drawable/event_details_area_open_normal.png => app/src/main/resources/drawable/event_details_area_open_normal.png
+* res/drawable/event_tab_info.xml => app/src/main/resources/drawable/event_tab_info.xml
+* res/drawable/favorite_deselected.png => app/src/main/resources/drawable/favorite_deselected.png
+* res/drawable/favorite_selected.png => app/src/main/resources/drawable/favorite_selected.png
+* res/drawable/favorite_selector.xml => app/src/main/resources/drawable/favorite_selector.xml
+* res/drawable/favorites_tab_info.xml => app/src/main/resources/drawable/favorites_tab_info.xml
+* res/drawable/filter_text_area.png => app/src/main/resources/drawable/filter_text_area.png
+* res/drawable/filter_text_area_selected.png => app/src/main/resources/drawable/filter_text_area_selected.png
+* res/drawable/go_to_map_icon.png => app/src/main/resources/drawable/go_to_map_icon.png
+* res/drawable/icon_120_120.png => app/src/main/resources/drawable/icon_120_120.png
+* res/drawable/icon_58_58.png => app/src/main/resources/drawable/icon_58_58.png
+* res/drawable/icon_80_80.png => app/src/main/resources/drawable/icon_80_80.png
+* res/drawable/icon_app.png => app/src/main/resources/drawable/icon_app.png
+* res/drawable/icon_default_shape.xml => app/src/main/resources/drawable/icon_default_shape.xml
+* res/drawable/icon_x.png => app/src/main/resources/drawable/icon_x.png
+* res/drawable/icone_filtro.png => app/src/main/resources/drawable/icone_filtro.png
+* res/drawable/icone_pin.png => app/src/main/resources/drawable/icone_pin.png
+* res/drawable/item_border.xml => app/src/main/resources/drawable/item_border.xml
+* res/drawable/line_separator.xml => app/src/main/resources/drawable/line_separator.xml
+* res/drawable/linha_pontilhada.png => app/src/main/resources/drawable/linha_pontilhada.png
+* res/drawable/list_item_selector.xml => app/src/main/resources/drawable/list_item_selector.xml
+* res/drawable/list_item_selector_adapter_photo_map.xml => app/src/main/resources/drawable/list_item_selector_adapter_photo_map.xml
+* res/drawable/list_press.xml => app/src/main/resources/drawable/list_press.xml
+* res/drawable/list_press_adapter_photo_map.xml => app/src/main/resources/drawable/list_press_adapter_photo_map.xml
+* res/drawable/location_icon.png => app/src/main/resources/drawable/location_icon.png
+* res/drawable/map_tab_info.xml => app/src/main/resources/drawable/map_tab_info.xml
+* res/drawable/mapa_highlight.png => app/src/main/resources/drawable/mapa_highlight.png
+* res/drawable/search_icon.png => app/src/main/resources/drawable/search_icon.png
+* res/drawable/tab_event_icon.png => app/src/main/resources/drawable/tab_event_icon.png
+* res/drawable/tab_event_icon_selected.png => app/src/main/resources/drawable/tab_event_icon_selected.png
+* res/drawable/tab_favorites_icon.png => app/src/main/resources/drawable/tab_favorites_icon.png
+* res/drawable/tab_favorites_icon_selected.png => app/src/main/resources/drawable/tab_favorites_icon_selected.png
+* res/drawable/tab_focus.xml => app/src/main/resources/drawable/tab_focus.xml
+* res/drawable/tab_indicator.xml => app/src/main/resources/drawable/tab_indicator.xml
+* res/drawable/tab_map_icon.png => app/src/main/resources/drawable/tab_map_icon.png
+* res/drawable/tab_map_icon_selected.png => app/src/main/resources/drawable/tab_map_icon_selected.png
+* res/drawable/tab_press.xml => app/src/main/resources/drawable/tab_press.xml
+* res/drawable/tab_selected.xml => app/src/main/resources/drawable/tab_selected.xml
+* res/drawable/tab_separator_shape.xml => app/src/main/resources/drawable/tab_separator_shape.xml
+* res/drawable/tab_unselected.xml => app/src/main/resources/drawable/tab_unselected.xml
+* res/drawable/tab_vitrinis_icon.png => app/src/main/resources/drawable/tab_vitrinis_icon.png
+* res/drawable/tab_vitrinis_icon_selected.png => app/src/main/resources/drawable/tab_vitrinis_icon_selected.png
+* res/drawable/textfield_default_grey.9.png => app/src/main/resources/drawable/textfield_default_grey.9.png
+* res/drawable/textfield_disabled_grey.9.png => app/src/main/resources/drawable/textfield_disabled_grey.9.png
+* res/drawable/textfield_disabled_selected_grey.9.png => app/src/main/resources/drawable/textfield_disabled_selected_grey.9.png
+* res/drawable/textfield_pressed_grey.9.png => app/src/main/resources/drawable/textfield_pressed_grey.9.png
+* res/drawable/textfield_selected_grey.9.png => app/src/main/resources/drawable/textfield_selected_grey.9.png
+* res/drawable/title_background.xml => app/src/main/resources/drawable/title_background.xml
+* res/drawable/vitrinis_list_initial_line.png => app/src/main/resources/drawable/vitrinis_list_initial_line.png
+* res/drawable/vitrinis_list_line_separator.png => app/src/main/resources/drawable/vitrinis_list_line_separator.png
+* res/drawable/vitrinis_tab_info.xml => app/src/main/resources/drawable/vitrinis_tab_info.xml
+* res/layout-sw360dp/activity_location_map.xml => app/src/main/resources/layout-sw360dp/activity_location_map.xml
+* res/layout-sw360dp/activity_main.xml => app/src/main/resources/layout-sw360dp/activity_main.xml
+* res/layout-sw360dp/activity_photo_map.xml => app/src/main/resources/layout-sw360dp/activity_photo_map.xml
+* res/layout-sw360dp/activity_vitrini.xml => app/src/main/resources/layout-sw360dp/activity_vitrini.xml
+* res/layout-sw360dp/activity_vitrini_list.xml => app/src/main/resources/layout-sw360dp/activity_vitrini_list.xml
+* res/layout-sw360dp/adapter_item_autocomplete.xml => app/src/main/resources/layout-sw360dp/adapter_item_autocomplete.xml
+* res/layout-sw360dp/dialog_about.xml => app/src/main/resources/layout-sw360dp/dialog_about.xml
+* res/layout-sw360dp/fragment_comfort.xml => app/src/main/resources/layout-sw360dp/fragment_comfort.xml
+* res/layout-sw360dp/fragment_craft.xml => app/src/main/resources/layout-sw360dp/fragment_craft.xml
+* res/layout-sw360dp/fragment_hotels.xml => app/src/main/resources/layout-sw360dp/fragment_hotels.xml
+* res/layout-sw360dp/fragment_places.xml => app/src/main/resources/layout-sw360dp/fragment_places.xml
+* res/layout-sw360dp/fragment_restaurants.xml => app/src/main/resources/layout-sw360dp/fragment_restaurants.xml
+* res/layout-sw360dp/fragment_rules.xml => app/src/main/resources/layout-sw360dp/fragment_rules.xml
+* res/layout-sw360dp/segment_filtering_list.xml => app/src/main/resources/layout-sw360dp/segment_filtering_list.xml
+* res/layout-sw360dp/segment_list_item.xml => app/src/main/resources/layout-sw360dp/segment_list_item.xml
+* res/layout-sw360dp/spinner_item.xml => app/src/main/resources/layout-sw360dp/spinner_item.xml
+* res/layout-sw360dp/tab_host.xml => app/src/main/resources/layout-sw360dp/tab_host.xml
+* res/layout-sw360dp/tab_indicator.xml => app/src/main/resources/layout-sw360dp/tab_indicator.xml
+* res/layout-sw360dp/title_bar.xml => app/src/main/resources/layout-sw360dp/title_bar.xml
+* res/layout-sw360dp/vitrini_list_item.xml => app/src/main/resources/layout-sw360dp/vitrini_list_item.xml
+* res/layout/activity_location_map.xml => app/src/main/resources/layout/activity_location_map.xml
+* res/layout/activity_main.xml => app/src/main/resources/layout/activity_main.xml
+* res/layout/activity_photo_map.xml => app/src/main/resources/layout/activity_photo_map.xml
+* res/layout/activity_vitrini.xml => app/src/main/resources/layout/activity_vitrini.xml
+* res/layout/activity_vitrini_list.xml => app/src/main/resources/layout/activity_vitrini_list.xml
+* res/layout/adapter_item_autocomplete.xml => app/src/main/resources/layout/adapter_item_autocomplete.xml
+* res/layout/dialog_about.xml => app/src/main/resources/layout/dialog_about.xml
+* res/layout/fragment_comfort.xml => app/src/main/resources/layout/fragment_comfort.xml
+* res/layout/fragment_craft.xml => app/src/main/resources/layout/fragment_craft.xml
+* res/layout/fragment_hotels.xml => app/src/main/resources/layout/fragment_hotels.xml
+* res/layout/fragment_places.xml => app/src/main/resources/layout/fragment_places.xml
+* res/layout/fragment_restaurants.xml => app/src/main/resources/layout/fragment_restaurants.xml
+* res/layout/fragment_rules.xml => app/src/main/resources/layout/fragment_rules.xml
+* res/layout/segment_filtering_list.xml => app/src/main/resources/layout/segment_filtering_list.xml
+* res/layout/segment_list_item.xml => app/src/main/resources/layout/segment_list_item.xml
+* res/layout/spinner_item.xml => app/src/main/resources/layout/spinner_item.xml
+* res/layout/tab_host.xml => app/src/main/resources/layout/tab_host.xml
+* res/layout/tab_indicator.xml => app/src/main/resources/layout/tab_indicator.xml
+* res/layout/title_bar.xml => app/src/main/resources/layout/title_bar.xml
+* res/layout/vitrini_list_item.xml => app/src/main/resources/layout/vitrini_list_item.xml
+* res/values-sw600dp/dimens.xml => app/src/main/resources/values-sw600dp/dimens.xml
+* res/values-sw720dp-land/dimens.xml => app/src/main/resources/values-sw720dp-land/dimens.xml
+* res/values/colors.xml => app/src/main/resources/values/colors.xml
+* res/values/dimens.xml => app/src/main/resources/values/dimens.xml
+* res/values/strings.xml => app/src/main/resources/values/strings.xml
+* res/values/styles.xml => app/src/main/resources/values/styles.xml
+* res/values/themes.xml => app/src/main/resources/values/themes.xml
+* res/values/vpi__attrs.xml => app/src/main/resources/values/vpi__attrs.xml
+* res/values/vpi__colors.xml => app/src/main/resources/values/vpi__colors.xml
+* res/values/vpi__defaults.xml => app/src/main/resources/values/vpi__defaults.xml
+* src/ => app/src/main/java/
+* /home/alessandrogurgel/workspace/ => app/src/main/java/
+* /home/alessandrogurgel/workspace/.metadata/.lock => app/src/main/resources/.metadata/.lock
+* /home/alessandrogurgel/workspace/.metadata/.log => app/src/main/resources/.metadata/.log
+* /home/alessandrogurgel/workspace/.metadata/.mylyn/repositories.xml.zip => app/src/main/resources/.metadata/.mylyn/repositories.xml.zip
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/Vitrini/.indexes/properties.index => app/src/main/resources/.metadata/.plugins/org.eclipse.core.resources/.projects/Vitrini/.indexes/properties.index
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/Vitrini/.location => app/src/main/resources/.metadata/.plugins/org.eclipse.core.resources/.projects/Vitrini/.location
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/Vitrini/.markers => app/src/main/resources/.metadata/.plugins/org.eclipse.core.resources/.projects/Vitrini/.markers
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/Vitrini/org.eclipse.egit.core/GitProjectData.properties => app/src/main/resources/.metadata/.plugins/org.eclipse.core.resources/.projects/Vitrini/org.eclipse.egit.core/GitProjectData.properties
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/Vitrini/org.eclipse.jdt.core/state.dat => app/src/main/resources/.metadata/.plugins/org.eclipse.core.resources/.projects/Vitrini/org.eclipse.jdt.core/state.dat
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version => app/src/main/resources/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index => app/src/main/resources/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version => app/src/main/resources/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.resources/.root/3.tree => app/src/main/resources/.metadata/.plugins/org.eclipse.core.resources/.root/3.tree
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources => app/src/main/resources/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs => app/src/main/resources/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs => app/src/main/resources/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.egit.core.prefs => app/src/main/resources/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.egit.core.prefs
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs => app/src/main/resources/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs => app/src/main/resources/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs => app/src/main/resources/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jst.j2ee.webservice.ui.prefs => app/src/main/resources/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jst.j2ee.webservice.ui.prefs
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs => app/src/main/resources/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.context.core.prefs => app/src/main/resources/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.context.core.prefs
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.monitor.ui.prefs => app/src/main/resources/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.monitor.ui.prefs
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.tasks.ui.prefs => app/src/main/resources/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.tasks.ui.prefs
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.rse.core.prefs => app/src/main/resources/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.rse.core.prefs
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.rse.ui.prefs => app/src/main/resources/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.rse.ui.prefs
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.team.ui.prefs => app/src/main/resources/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.team.ui.prefs
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.browser.prefs => app/src/main/resources/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.browser.prefs
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.editors.prefs => app/src/main/resources/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.editors.prefs
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs => app/src/main/resources/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs => app/src/main/resources/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs => app/src/main/resources/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.jsdt.ui.prefs => app/src/main/resources/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.jsdt.ui.prefs
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.ws.service.policy.prefs => app/src/main/resources/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.ws.service.policy.prefs
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi => app/src/main/resources/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.fdt => app/src/main/resources/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.fdt
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.fdx => app/src/main/resources/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.fdx
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.fnm => app/src/main/resources/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.fnm
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.frq => app/src/main/resources/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.frq
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.nrm => app/src/main/resources/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.nrm
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.tii => app/src/main/resources/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.tii
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.tis => app/src/main/resources/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.tis
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/segments.gen => app/src/main/resources/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/segments.gen
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/segments_1 => app/src/main/resources/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/segments_1
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/write.lock => app/src/main/resources/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/write.lock
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.fdt => app/src/main/resources/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.fdt
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.fdx => app/src/main/resources/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.fdx
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.fnm => app/src/main/resources/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.fnm
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.frq => app/src/main/resources/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.frq
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.nrm => app/src/main/resources/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.nrm
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.prx => app/src/main/resources/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.prx
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.tii => app/src/main/resources/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.tii
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.tis => app/src/main/resources/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.tis
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/segments.gen => app/src/main/resources/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/segments.gen
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/segments_2 => app/src/main/resources/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/segments_2
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/server-config.json => app/src/main/resources/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/server-config.json
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.equinox.p2.ui/dialog_settings.xml => app/src/main/resources/.metadata/.plugins/org.eclipse.equinox.p2.ui/dialog_settings.xml
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.jdt.core/1878551790.index => app/src/main/resources/.metadata/.plugins/org.eclipse.jdt.core/1878551790.index
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.jdt.core/3530330443.index => app/src/main/resources/.metadata/.plugins/org.eclipse.jdt.core/3530330443.index
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache => app/src/main/resources/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache => app/src/main/resources/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps => app/src/main/resources/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.jdt.core/indexNamesMap.txt => app/src/main/resources/.metadata/.plugins/org.eclipse.jdt.core/indexNamesMap.txt
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.jdt.core/javaLikeNames.txt => app/src/main/resources/.metadata/.plugins/org.eclipse.jdt.core/javaLikeNames.txt
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache => app/src/main/resources/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt => app/src/main/resources/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat => app/src/main/resources/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.jdt.launching/.install.xml => app/src/main/resources/.metadata/.plugins/org.eclipse.jdt.launching/.install.xml
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.jdt.launching/libraryInfos.xml => app/src/main/resources/.metadata/.plugins/org.eclipse.jdt.launching/libraryInfos.xml
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml => app/src/main/resources/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml => app/src/main/resources/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml => app/src/main/resources/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2016/3/10/refactorings.history => app/src/main/resources/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2016/3/10/refactorings.history
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2016/3/10/refactorings.index => app/src/main/resources/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2016/3/10/refactorings.index
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.ltk.ui.refactoring/dialog_settings.xml => app/src/main/resources/.metadata/.plugins/org.eclipse.ltk.ui.refactoring/dialog_settings.xml
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log => app/src/main/resources/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.6.2.20150902-0002.xml => app/src/main/resources/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.6.2.20150902-0002.xml
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup => app/src/main/resources/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties => app/src/main/resources/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.rse.core/.log => app/src/main/resources/.metadata/.plugins/org.eclipse.rse.core/.log
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.rse.core/initializerMarks/org.eclipse.rse.internal.core.RSELocalConnectionInitializer.mark => app/src/main/resources/.metadata/.plugins/org.eclipse.rse.core/initializerMarks/org.eclipse.rse.internal.core.RSELocalConnectionInitializer.mark
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.rse.core/profiles/PRF.localhost_0/FP.local.files_0/node.properties => app/src/main/resources/.metadata/.plugins/org.eclipse.rse.core/profiles/PRF.localhost_0/FP.local.files_0/node.properties
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.rse.core/profiles/PRF.localhost_0/H.local_16/node.properties => app/src/main/resources/.metadata/.plugins/org.eclipse.rse.core/profiles/PRF.localhost_0/H.local_16/node.properties
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.rse.core/profiles/PRF.localhost_0/node.properties => app/src/main/resources/.metadata/.plugins/org.eclipse.rse.core/profiles/PRF.localhost_0/node.properties
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.rse.ui/.log => app/src/main/resources/.metadata/.plugins/org.eclipse.rse.ui/.log
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml => app/src/main/resources/.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml => app/src/main/resources/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml => app/src/main/resources/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/externalLibsTimeStamps => app/src/main/resources/.metadata/.plugins/org.eclipse.wst.jsdt.core/externalLibsTimeStamps
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/baseBrowserLibrary.js => app/src/main/resources/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/baseBrowserLibrary.js
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/browserWindow.js => app/src/main/resources/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/browserWindow.js
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/dom5.js => app/src/main/resources/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/dom5.js
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/system.js => app/src/main/resources/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/system.js
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/xhr.js => app/src/main/resources/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/xhr.js
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/variablesAndContainers.dat => app/src/main/resources/.metadata/.plugins/org.eclipse.wst.jsdt.core/variablesAndContainers.dat
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.wst.jsdt.ui/OpenTypeHistory.xml => app/src/main/resources/.metadata/.plugins/org.eclipse.wst.jsdt.ui/OpenTypeHistory.xml
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.wst.jsdt.ui/QualifiedTypeNameHistory.xml => app/src/main/resources/.metadata/.plugins/org.eclipse.wst.jsdt.ui/QualifiedTypeNameHistory.xml
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties => app/src/main/resources/.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties
+* /home/alessandrogurgel/workspace/.metadata/version.ini => app/src/main/resources/.metadata/version.ini
+* /home/alessandrogurgel/workspace/RemoteSystemsTempFiles/.project => app/src/main/resources/RemoteSystemsTempFiles/.project
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

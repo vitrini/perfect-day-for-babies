@@ -1,0 +1,17 @@
+
+
+#loadingCtner {
+	position: fixed;
+	left: 30%;
+	top: 30%;
+}
+
+.loadingMsg
+{
+	font-size: 500%;
+	color:#FF0696;
+	position: fixed;
+	top: 50%;
+	left: 40%;
+}
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>
+	 	<shape android:shape="rectangle" >
+			<stroke android:width="4dp" android:color="#BB0000"/>
+			
+			<!-- Solid Color: Transparent -->
+			<!-- The alpha component precedes the RBG ones. #AARRGGBB -->
+			<solid android:color="#00FFFFFF"/>
+			
+			<!-- Rounded corners -->
+			<corners android:radius="4dp"/>
+			
+			<!--  Content padding -->
+			<padding    android:left  ="2dp"
+				        android:top   ="2dp"
+				        android:right ="2dp"
+				        android:bottom="2dp"/>
+			
+		</shape>
+	</item>	
+</layer-list>

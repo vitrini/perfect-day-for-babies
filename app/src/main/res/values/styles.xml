@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	<style name="WindowTitleBackground">     
+		<item name="android:background">@drawable/title_background</item>
+		<item name="android:windowTitleStyle">@style/CustomWindowTitle</item>
+	</style>
+
+	<style name="CustomWindowTitle" parent="WindowTitle">
+	    <item name="android:textAppearance">@style/CustomWindowTitleText</item>
+	</style>
+	
+	<style name="CustomWindowTitleText" parent="android:TextAppearance">
+	    <item name="android:textColor">@color/text_tab_selected</item>
+	</style>
+		
+	<style name="LightTabWidget" parent="@android:style/Widget.TabWidget">
+	    <item name="android:textColor">@color/tab_indicator_text</item>
+	</style>    
+	
+	<style name="red_edittext" parent="@android:style/Widget.EditText">
+	 	<item name="android:focusable">true</item>
+	 	<item name="android:focusableInTouchMode">true</item>
+	 	<item name="android:clickable">true</item>
+	 	<item name="android:background">@drawable/black_edit_text</item>
+	 	<item name="android:textColor">@color/dark_red</item>
+	 	<item name="android:gravity">center_vertical</item>
+	 	<item name="android:textColorHint">@color/dark_gray</item>
+	 	<item name="android:textColorHighlight">@color/ultra_light_gray</item>
+	</style>
+	<style name="btnStyleBeige" parent="@android:style/Widget.Button">
+       <item name="android:textSize">15sp</item>
+       <item name="android:textStyle">bold</item>
+       <item name="android:textColor">@color/orange</item>
+       <item name="android:gravity">center</item>
+       <item name="android:shadowColor">#000000</item>
+       <item name="android:shadowDx">1</item>
+       <item name="android:shadowDy">1</item>
+       <item name="android:shadowRadius">0.6</item>
+       <item name="android:background">@drawable/custom_btn</item>
+       <item name="android:padding">10dip</item>
+   </style>
+   
+	<style name="WindowTitle">
+	    <item name="android:singleLine">true</item>
+	    <item name="android:textAppearance">@style/CustomWindowTitleText</item>
+	</style>
+</resources>

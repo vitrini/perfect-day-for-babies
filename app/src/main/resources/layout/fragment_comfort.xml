@@ -1,0 +1,58 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_marginRight="3dp"
+            android:layout_marginLeft="3dp"  >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="COMODIDADES"
+                android:textColor="@color/pink"
+                
+                android:layout_marginBottom="15dp" />
+            
+            <TextView
+                android:id="@+id/text_view_content"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="left"
+                android:text="Transporte gratuito de vans entre a CRAFT DESIGN e Abup, no prédio da Bienal, no Ibirapuera.."
+                
+                android:layout_marginBottom="15dp" />
+            
+            <TextView
+                android:id="@+id/text_view_content"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="left"
+                android:text="10 min a pé da estação de metrô Consolção."
+                
+                android:layout_marginBottom="15dp" />
+            
+            <TextView
+                android:id="@+id/text_view_content"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="left"
+                android:text="Transporte gratuito de vans entre Craft Design e Metrô Tietê, Rua Voluntários da Pátria, 560 (próximo à Gift Fair)."
+                
+                android:layout_marginBottom="15dp" />            
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

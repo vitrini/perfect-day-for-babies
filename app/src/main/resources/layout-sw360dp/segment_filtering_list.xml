@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:orientation="vertical">	
+
+		<RelativeLayout
+		     android:orientation="horizontal"
+		     android:layout_width="fill_parent"
+		     android:focusable="false"
+		     android:clickable="false"
+		     android:layout_marginRight="3dp"
+		     android:layout_gravity="center_vertical"
+		     android:layout_height="wrap_content"
+		     android:layout_weight="0.01"
+		     >
+				
+		    <CheckBox
+			    android:id="@+id/checkbox_select_all"      
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignParentRight="true"
+				android:layout_centerVertical="true"
+			    android:layout_marginTop="15dip"                
+			    android:layout_marginBottom="15dip"                
+		        android:layout_marginRight="10dip"
+		        android:layout_marginLeft="6dip"
+		        android:button="@drawable/checkbox_selector"
+				/>
+
+		</RelativeLayout>
+
+		<ImageView
+		    android:layout_width="480dp"
+	    	android:layout_height="wrap_content"
+	    	android:src="@drawable/vitrinis_list_initial_line"
+	    	android:contentDescription="TODO"
+	    	/>
+		
+		<ListView
+			android:id="@+id/segments_list_view"
+			android:layout_width="fill_parent"
+			android:layout_height="0dip"
+			android:cacheColorHint="@android:color/transparent"	    
+			android:listSelector="@android:color/transparent"
+			android:focusable="false"
+			android:clickable="false"	    	
+			android:divider="@drawable/line_separator"
+			android:layout_weight="0.97"
+			/>
+			
+  		<ImageView
+  		    android:id="@+id/divider"
+		    android:layout_width="480dp"
+	    	android:layout_height="wrap_content"
+	    	android:src="@drawable/vitrinis_list_initial_line"
+	    	android:contentDescription="TODO"
+	    	/>
+			
+		<RelativeLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:focusable="false"
+			android:clickable="false"
+			android:layout_weight="0.02"
+	     	>
+		         		        
+			<Button
+				android:id="@+id/filter_button_cancel"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/filter_button_cancel"
+				android:textColor="@color/text_tab_selected"
+				android:textSize="24sp"					
+				android:layout_alignParentLeft="true"
+				android:background="@null"
+				android:layout_margin="5dp" 
+				/>
+			
+			<Button
+				android:id="@+id/filter_button_ok"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/filter_button_ok"
+				android:textColor="@color/text_tab_selected"
+				android:textSize="24sp"			
+				android:layout_alignParentRight="true"
+				android:background="@null" 
+				android:layout_margin="5dp"
+				/>			
+		</RelativeLayout>
+</LinearLayout>

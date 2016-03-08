@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">A Perfect Day for Babies</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">A Perfect Day for Babies</string>
+
+    <!-- MAIN ACTIVITY -->
+	<string name="content_description_about">Visualizar informações sobre o desenvolvedor do aplicativo</string>
+	<string name="lingueta_inscricao"><a href="http://www.inscricaofacil.com.br/feirasemp/craftdesign24/">Inscreva-se</a></string>
+	<string name="lingueta_facebook"><a href="https://www.facebook.com/pages/A-Perfect-Day-for-Babies/516426108402601">Facebook</a></string>
+	<string name="lingueta_instagram"><a href="http://instagram.com/aperfectdaybabies">Instagram</a></string>
+	<string name="lingueta_regras_site">É preciso se cadastrar para visitar. Através do <a href="http://www.inscricaofacil.com.br/feirasemp/craftdesign24/">site</a> ou na entrada da feira, na data de sua visita.</string>		
+	<string name="lingueta_craft_release">
+	    <![CDATA[
+	    <font color=\'#FD037E\'><b>São Paulo, março de 2014 –</b></font> O espaço no Centro de Convenções Frei Caneca em São Paulo recebe a 24ª edição da Craft Design, de 08 a 11 de março de 2014.  A feira, referência no setor de decoração e presentes, receberá cerca de 180 expositores entre profissionais nacionais e internacionais, dos segmentos de design, mobiliário, presentes, utilitários, design têxtil, papelaria, acessórios, entre outros.
+	    ]]>
+    </string>		
+	<string name="lingueta_hoteis">
+	    <![CDATA[
+	    <font color=\'#FD037E\'><b>São Paulo, março de 2014 –</b></font> O espaço no Centro de Convenções Frei Caneca em São Paulo recebe a 24ª edição da Craft Design, de 08 a 11 de março de 2014.  A feira, referência no setor de decoração e presentes, receberá cerca de 180 expositores entre profissionais nacionais e internacionais, dos segmentos de design, mobiliário, presentes, utilitários, design têxtil, papelaria, acessórios, entre outros.
+	    ]]>
+    </string>		
+		
+    <string name="content_description_logo">logo application image</string>
+    <string name="label_version">Versão: 0.0.1</string>
+    <string name="btn_booths">Estandes</string>
+    <string name="btn_location">Mapa do Evento</string>
+    <string name="btn_favoritos">Favoritos</string>
+    <string name="title_activity_location_map">Localização</string>
+
+    <!-- MAP LOCATION ACTIVITY -->
+    <string name="img_btn_go_to_booth">Entra no menu de detalhamento do estande</string>
+    <string name="img_view_map">Mapa de localização de estandes, banheiros, restaurantes</string>
+    <string name="img_btn_focus_bathrooms">Mapa de localização de estandes, banheiros, restaurantes</string>
+    <string name="img_btn_focus_restaurants">Mapa de localização de estandes, banheiros, restaurantes</string>
+    <string name="img_btn_focus_exit">Mapa de localização de estandes, banheiros, restaurantes</string>
+    <string name="img_btn_focus_female_stores">Mapa de localização de estandes, banheiros, restaurantes</string>
+
+    <!-- VITRINI LIST ACTIVITY -->
+    <string name="text_view_segment_vitrini">Segmento</string>
+    <string name="all_segments">Selecionar Todos</string>    
+    <string name="label_segments">Segmentos</string>
+    <string name="title_activity_vitrini_list">Estandes</string>
+    <string name="title_activity_vitrini">VitriniActivity</string>
+    
+    <!-- FAVORITE LIST ACTIVITY -->
+    <string name="favorites">Favoritos</string>
+    <string name="title_activity_favorite_list">Estandes Favoritos</string>
+    <string name="no_favorites_text">Não há estandes marcados como favoritos.</string>    
+
+    <!-- VITRINI ACTIVITY -->
+    <string name="img_view_vitrini_head">Foto de destaque do Vitrini</string>
+    <string name="text_view_vitrini_name">Nome do Estande</string>
+    <string name="edit_text_vitrini_description">Descrição de produtos e serviços da loja. Texto introdutório da loja</string>
+    <string name="text_view_vitrini_products">Produtos</string>
+    <string name="text_view_vitrini_site">www.vitrini.com.vc</string>
+    <string name="title_activity_photo_map">PhotoMapActivity</string>
+    <string name="title_activity_android_html">AndroidHTMLActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="map">Map</string>
+    <string name="filter_button_ok">Ok</string>
+    <string name="filter_button_cancel">Cancelar</string>
+    	<string name="content_description_go_to_map">Visualizar estande no mapa do evento</string>
+    
+    
+    <!-- TAB ACTIVITY-->
+   	<string name="tab_1">Evento</string>
+	<string name="tab_2">Expositores</string>	
+	<string name="tab_3">Mapa</string>	
+	<string name="tab_4">Favoritos</string>
+</resources>

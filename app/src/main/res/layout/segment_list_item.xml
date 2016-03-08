@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+     android:orientation="horizontal"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:focusable="false"
+     android:clickable="false"
+     android:layout_gravity="center_vertical"
+     xmlns:android="http://schemas.android.com/apk/res/android">
+      
+   	<ImageView android:id="@+id/photo" 
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+	    android:layout_marginTop="15dip"                
+	    android:layout_marginBottom="15dip"                
+   	    android:layout_marginRight="15dip"                
+	    android:layout_marginLeft="14dip"                
+	    android:contentDescription="TODO"
+	    android:focusable="false"
+	    android:clickable="false"
+	    android:scaleType="fitXY"
+	 	android:layout_centerInParent="true"
+	    android:layout_alignParentLeft="true"
+	    />
+	        
+	 <TextView android:id="@+id/segment_text_view"
+	 	android:layout_width="wrap_content"
+	 	android:layout_height="wrap_content"
+	    android:layout_marginTop="15dip"                
+	    android:layout_marginBottom="15dip"                
+   	    android:layout_marginRight="14dip"                
+	 	android:layout_centerInParent="true"
+	   	android:focusable="false"
+     	android:clickable="false"
+     	android:textColor="#000000"
+     	android:text="Segmento Vitrini"		
+     	android:textSize="16sp"
+		android:layout_toRightOf="@+id/photo"   	
+	  	/>	 
+		 	 
+	 
+	 <CheckBox
+        android:id="@+id/checkbox_filter"
+   	 	android:layout_width="wrap_content"
+	 	android:layout_height="wrap_content"     
+	    android:layout_marginTop="15dip"                
+	    android:layout_marginBottom="15dip"                
+        android:layout_marginRight="14dip"
+        android:layout_marginLeft="6dip"
+        android:layout_alignParentRight="true"
+	 	android:layout_centerInParent="true"
+	 	android:button="@drawable/checkbox_selector"
+		/>
+		 	
+</RelativeLayout>
