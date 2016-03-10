@@ -13,3 +13,14 @@ O aplicativo está disponível no Google Play: https://play.google.com/store/app
 - Uso de abas e fragment views
 - Notas 
 - Favoritos
+- 
+------
+
+![](https://s3-sa-east-1.amazonaws.com/git-hub-perfect-day-babies/perfect1.png)
+
+![](https://s3-sa-east-1.amazonaws.com/git-hub-perfect-day-babies/perfect2.png)
+
+![](https://s3-sa-east-1.amazonaws.com/git-hub-perfect-day-babies/perfect3.png)
+
+![](https://s3-sa-east-1.amazonaws.com/git-hub-perfect-day-babies/perfect4.png)
+------
